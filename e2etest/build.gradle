@@ -26,9 +26,9 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.12.1'
     implementation 'com.google.firebase:firebase-core:16.0.8'
     implementation 'com.google.firebase:firebase-messaging:17.5.0'
+    implementation 'com.microsoft.azure:azure-notifications-handler:3.5.1@aar'
 
     implementation project(':sdk')
-    implementation project(':notifications-handler')
 }
 
 apply plugin: 'com.google.gms.google-services'
